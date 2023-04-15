@@ -34,11 +34,10 @@ file.close()
 print "\n"
 
 #----------------------------------------------------------------------------------------Encoding and creating new text file
-
 File.open("luan_weird_code.txt", "w") do |file|
 for linez in info
     length_x = linez.length()
-    length_u = 0    
+    length_u = 0
     while length_u < length_x
         case linez[length_u] 
             when "a"
